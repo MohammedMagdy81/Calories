@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginTop="12dp"
+    tools:context=".MaleFragment">
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:padding="12dp"
+        android:inputType="numberDecimal"
+        android:hint="Enter Height . . "
+        android:textSize="24sp"
+        />
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:padding="12dp"
+        android:inputType="numberDecimal"
+        android:hint="Enter Weight . . "
+        android:textSize="24sp"
+        />
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:padding="12dp"
+        android:inputType="number"
+        android:hint="Enter Age . . "
+        android:textSize="24sp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Calories : "
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:id="@+id/text_calories"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="0.0"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:id="@+id/text_result"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_claculate"
+        android:text="Calculate"
+        android:textSize="24sp"
+        />
+</LinearLayout>
